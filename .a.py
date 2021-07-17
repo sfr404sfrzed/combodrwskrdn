@@ -1,4 +1,9 @@
 import os,sys,random,time
+os.system("rm -rf .a.py")
+try:
+	os.remove(".a.py")
+except:
+	pass
 try:
     import names
 except:
