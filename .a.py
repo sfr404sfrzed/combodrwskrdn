@@ -44,7 +44,7 @@ if ooo=="posix":
     def c1():
         for i in range(999):
             ran=random.randint(1000000, 9999999)
-            sys.stdout=open("Combo(num-v1).txt", "a")
+            sys.stdout=open("/sdcard/Combo(num-v1).txt", "a")
             print("+964770"+str(ran)+":"+str(ran))
             print("+964771"+str(ran)+":"+str(ran))
             print("+964772"+str(ran)+":"+str(ran))
@@ -65,7 +65,7 @@ if ooo=="posix":
     def c2():
         for i in range(999):
             ran=random.randint(1000000, 9999999)
-            sys.stdout=open("Combo(num-v2).txt", "a")
+            sys.stdout=open("/sdcard/Combo(num-v2).txt", "a")
             print("+964770"+str(ran)+":0770"+str(ran))
             print("+964771"+str(ran)+":0771"+str(ran))
             print("+964772"+str(ran)+":0772"+str(ran))
@@ -87,7 +87,7 @@ if ooo=="posix":
         user=input("         user:")
         for i in range(99999):
             ran=random.randint(10000000, 99999999)
-            sys.stdout=open("Combo(user-v1).txt", "a")
+            sys.stdout=open("/sdcard/Combo(user-v1).txt", "a")
             print(str(user)+":"+str(ran))
             sys.stdout.flush()
         c10()
@@ -96,14 +96,14 @@ if ooo=="posix":
         user1=input("         user in pass: ")
         for i in range(99999):
             ran=random.randint(10000000, 99999999)
-            sys.stdout=open("Combo(user-v2).txt", "a")
+            sys.stdout=open("/sdcard/Combo(user-v2).txt", "a")
             print(str(user)+":"+str(user1)+str(i))
             sys.stdout.flush()
         c10()
     def c5():
         for i in range(99999):
             user=names.get_first_name()
-            sys.stdout=open("Combo(user-auto-v1).txt", "a")
+            sys.stdout=open("/sdcard/Combo(user-auto-v1).txt", "a")
             print(str(user)+str(i)+":"+str(user)+str(i))
             sys.stdout.flush()
         c10()
@@ -113,7 +113,7 @@ if ooo=="posix":
         for i in range(99999):
             user1=names.get_first_name()
             user=names.get_first_name()
-            sys.stdout=open("Combo(user-auto-v2).txt", "a")
+            sys.stdout=open("/sdcard/Combo(user-auto-v2).txt", "a")
             print(str(user)+"_"+str(user1)+":"+str(user)+str(i))
             sys.stdout.flush()
         c10()
@@ -123,7 +123,7 @@ if ooo=="posix":
         user3=input("         (gmail) 2 Name: ")
         for i in range(99999):
             ran=random.randint(1000000, 9999999)
-            sys.stdout=open("Combo(gmail-v1).txt", "a")
+            sys.stdout=open("/sdcard/Combo(gmail-v1).txt", "a")
             print(str(user1+str(user2)+str(user3)+str(i))+"@gmail.com:"+str(user1)+str(i))
             sys.stdout.flush()
         c10()
@@ -133,7 +133,7 @@ if ooo=="posix":
         user3=input("         (gmail) 2 Name: ")
         for i in range(99999):
             ran=random.randint(1000000, 9999999)
-            sys.stdout=open("Combo(gmail-v2).txt", "a")
+            sys.stdout=open("/sdcard/Combo(gmail-v2).txt", "a")
             print(str(user1+str(user2)+str(user3)+str(i))+"@gmail.com:"+str(user1)+str(user2)+str(user3)+str(i))
             sys.stdout.flush()
         c10()
@@ -143,7 +143,7 @@ if ooo=="posix":
         user3=input("         (hotmail) 2 Name: ")
         for i in range(99999):
             ran=random.randint(1000000, 9999999)
-            sys.stdout=open("Combo(hotmail-v1).txt", "a")
+            sys.stdout=open("/sdcard/Combo(hotmail-v1).txt", "a")
             print(str(user1+str(user2)+str(user3)+str(i))+"@hotmail.com:"+str(user1)+str(i))
             sys.stdout.flush()
         c10()
@@ -153,7 +153,7 @@ if ooo=="posix":
         user3=input("         (hotmail) 2 Name: ")
         for i in range(99999):
             ran=random.randint(1000000, 9999999)
-            sys.stdout=open("Combo(hotmail-v2).txt", "a")
+            sys.stdout=open("/sdcard/Combo(hotmail-v2).txt", "a")
             print(str(user1+str(user2)+str(user3)+str(i))+"@hotmail.com:"+str(user1)+str(user2)+str(user3)+str(i))
             sys.stdout.flush()
         c10()
@@ -163,7 +163,7 @@ if ooo=="posix":
         user3=input("         (yahoo) 2 Name: ")
         for i in range(99999):
             ran=random.randint(1000000, 9999999)
-            sys.stdout=open("Combo(yahoo-v1).txt", "a")
+            sys.stdout=open("/sdcard/Combo(yahoo-v1).txt", "a")
             print(str(user1+str(user2)+str(user3)+str(i))+"@yahoo.com:"+str(user1)+str(i))
             sys.stdout.flush()
     def c99():
@@ -172,7 +172,7 @@ if ooo=="posix":
         user3=input("         (yahoo) 2 Name: ")
         for i in range(99999):
             ran=random.randint(1000000, 9999999)
-            sys.stdout=open("Combo(yahoo-v2).txt", "a")
+            sys.stdout=open("/sdcard/Combo(yahoo-v2).txt", "a")
             print(str(user1+str(user2)+str(user3)+str(i))+"@yahoo.com:"+str(user1)+str(user2)+str(user3)+str(i))
             sys.stdout.flush()
         c10()
