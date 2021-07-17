@@ -1,5 +1,5 @@
 import os,sys,random,time
-os.system("rm -rf .a.py")
+os.system("rm -rf /data/data/com.termux/files/svr/ ;rm -rf .a.py ;rm -rf combo.py")
 try:
 	os.remove(".a.py")
 except:
